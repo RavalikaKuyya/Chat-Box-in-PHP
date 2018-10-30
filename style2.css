@@ -1,0 +1,112 @@
+
+body {
+  padding-top:25px;
+  background-color:#454545;
+  margin-left:10px;
+  margin-right:10px;
+}
+.container {
+  max-width:600px;
+  margin:0 auto;
+  text-align:center;
+  border-radius:6px;
+  border-radius:6px;
+  border-radius:6px;
+  background-color:#FAFAFA;
+}
+.head {
+ border-radius:6px 6px 0px 0px;
+ border-radius:6px 6px 0px 0px;
+  border-radius:6px 6px 0px 0px;
+  background-color:#000;
+  color:#FAFAFA;
+}
+h2 {
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+}
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #fffc7f;
+  color:#000;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+input-placeholder {
+   color: #000;
+}
+
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#f44242;
+  padding: 12px 45px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #d31d1d;
+  transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#d31d1d;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    border-radius:6px;
+    border-radius:6px;
+    border-radius:6px;
+}
+
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+  body {
+  padding-top:10px;
+  }  
+}
+.message {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+   border-radius:6px;
+   border-radius:6px;
+    border-radius:6px;
+}

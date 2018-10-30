@@ -1,0 +1,42 @@
+#main{
+    height: 100%;
+    width:100%;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.output {
+    background-color: white;
+    box-shadow: 0px 1px 1px #000;
+    height: 250px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+
+ul{
+    list-style: none;
+}
+
+input[type=submit]{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+textarea{
+    background-color: #fff;
+    width: 400px;
+}
+
+body{
+    background-color: #A9A9A9;
+}
